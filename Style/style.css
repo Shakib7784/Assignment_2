@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Mochiy+Pop+P+One&family=Poppins&display=swap');
+
+body
+{
+  
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    
+}
+/* header section style */
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 55px;
+    
+}
+.heading
+{
+    margin-left: 120px;
+}
+.heading>h1
+{
+    font-size: 24px;
+}
+.links
+{
+   
+    margin-right: 120px;
+}
+.links .link
+{
+    display: inline-block;
+    list-style: none;
+    margin-left: 34px;
+    font-size: 16px;
+}
+.link a
+{
+    text-decoration: none;
+    
+}
+.link #search
+{
+    height: 20px;
+    width: 20px;
+}
+.link #store
+{
+    height: 20px;
+    width: 20px;
+}
