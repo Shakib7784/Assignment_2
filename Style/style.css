@@ -90,11 +90,8 @@ body
 }
 .camera
 {
-    background-image: url("images/background-/Circledesign.svg") repeat 0 0;
-    background-size: 250px;
-    background-repeat: no-repeat;
     
-   
+    
     position: relative;
     right: 165px;
 
@@ -354,11 +351,21 @@ footer
 /* responsive for mobile */
 @media only screen and (max-width:700px)
  {
-     body
-     {
-        
-     }
-    .first
+    
+    .nav
+    {
+        flex-direction: column;
+        text-align: left;
+    }
+    .heading
+    {
+        margin-left: 260px;
+    }
+    .links
+    {
+        display: none;
+    }
+.first
     {
         display: flex;
         flex-direction: column-reverse;
@@ -367,19 +374,44 @@ footer
       
        
     }
-    .influncer {
+.influncer
+    {
         position: relative;
-        left: 0px;
-        width: 582px;
+        left: -320px;
+         width: 320px;;
     }
-    .third
-{
+.camera
+    {
+    
+    
+    position: relative;
+   left: -320px;
+
+    
+    }
+.second
+    {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+    width: 320px;
+    height:100%;
+    margin-left: 220px;
+    margin-right: 0;
+    }
+    .title
+    {
+        margin-left: 30px;
+    }
+.third
+    {
     
     height: 100%;
+    width: 320px;
     
-}
+    }
 
-    .collections
+.collections
     {
        display: flex;
        flex-direction: column;
@@ -387,17 +419,36 @@ footer
        align-items: center;
        margin-left: 0;
     }
-    .collection
+.collection
     {
         margin-left: 0;
     }
-    .four
+.four
     {
         display: flex;
         flex-direction: column;
-    height: 100%;
+        height: 100%;
+        width: 320px;
+        margin-left: 260px;
     }
-
+    .tech_pic
+    {
+        margin-right: 40px;
+    }
+    .details
+    {
+        width: 320px;
+        height: 100%;
+    }
+    .details p
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .last
+    {
+        left: 260px;
+    }
     
 }
 
