@@ -374,11 +374,9 @@ footer
     }
     .third
 {
-    width: 100%;
+    
     height: 100%;
-    margin-left: 196px;
-    margin-right: 197px;
-    margin-bottom: 100px;
+    
 }
 
     .collections
@@ -387,12 +385,16 @@ footer
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       margin-left: 0;
+    }
+    .collection
+    {
+        margin-left: 0;
     }
     .four
     {
         display: flex;
         flex-direction: column;
-        width: 100%;
     height: 100%;
     }
 
