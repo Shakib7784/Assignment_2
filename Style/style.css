@@ -103,6 +103,11 @@ body
     width: 440px;
    
 }
+.camera:hover
+{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
 .influncer button
 {
     Width :196px;
@@ -181,6 +186,11 @@ body
 {
     width: 300px;
     height: 256px;
+}
+.image:hover
+{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
 }
 .description h2
 {
@@ -378,7 +388,7 @@ footer
     {
         position: relative;
         left: -320px;
-         width: 320px;;
+         width: 320px;
     }
 .camera
     {
@@ -431,6 +441,10 @@ footer
         width: 320px;
         margin-left: 260px;
     }
+    .see
+    {
+        margin-left: 220px;
+    }
     .tech_pic
     {
         margin-right: 40px;
@@ -450,5 +464,77 @@ footer
         left: 260px;
     }
     
+}
+
+/* responsive for Tablet */
+
+@media only screen and (min-width:701px) and (max-width:992px)
+{
+
+    .nav
+    {
+        flex-direction: column;
+    }
+    .heading
+    {
+        margin-left: 0;
+    }
+    .first
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+      
+       
+    }
+.influncer
+    {
+        position: relative;
+        left: -100px;
+
+        
+    }
+    .second
+    {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    width: 50%;
+    height:100%;
+    margin-left: 320px;
+   
+    }
+    .third
+    {
+    
+    height: 100%;
+    width: 50%;
+    margin-left: 300px;
+    
+    }
+    .collections
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.title
+{
+    margin-left: 250px;
+}
+.see
+{
+    margin-left: 550px;
+}
+.four
+{
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
 }
 
